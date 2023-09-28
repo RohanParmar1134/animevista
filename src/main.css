@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+  }
+  #video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* min-width: 10%; */
+    min-width: 100%;
+    max-height: 125%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 10px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+    position: relative; 
+    z-index: 1; 
+  }
+  
+
+  
+
+  /* .container {
+    max-width: 800px;
+    margin-top: 2%;
+    padding: 20px;
+    background-color: rgba(220, 105, 233, 0.3); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+  } */
+  
+
+  /* header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  } */
+/*   
+  .logo {
+    width: 50px;
+    margin-right: 10px;
+  } */
+  
+  #headingname {
+    display: flex;
+    color: #f00808;
+     mix-blend-mode: difference;
+    font-size: 14vw;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+  main {
+    padding: 10px;
+  }
+  
+  /* h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  } */
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    color: #a4bfd4;
+    font-size: 3vw;
+    margin-bottom: 10px;
+    font-family: monospace;
+  }
+  
+  input[type="file"] {
+    font-size: 1vw;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    padding: 10px;
+    background-color: rgb(255, 255, 255,0.3);
+    border: 1px solid rgb(234, 234, 234,0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #7fb2da;
+    color: #fff;
+    font-size: large;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005a9e;
+  }
+  
+  /* Style the results section */
+  .results {
+    margin-top: 20px;
+    /* padding-top: 20px; */
+    padding: 20px;
+    color: #94b7d2;
+    font-size: 2vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-family: monospace;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .anime-details {
+    margin-bottom: 20px;
+  }
+  
+  .anime-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .anime-media img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    
+    margin-bottom: 10px;
+  }
+  
+
+
+  .anime-media video {
+    width: 100%;
+    height: auto;
+
+  }
