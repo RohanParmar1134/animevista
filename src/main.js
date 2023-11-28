@@ -6,7 +6,7 @@ import "./main.css"; // Import your custom CSS file for styling
 // const bg3 = require("./bg3.mp4")
 // const bg4 = require("./bg4.mp4")
 // const bg5 = require("./bg5.mp4")
-const bg = require("./bg.mp4")
+// const bg = require("./bg.mp4")
 function Main() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [animeInfo, setAnimeInfo] = useState([]);
